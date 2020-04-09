@@ -1,0 +1,117 @@
+
+table {
+  width: 100%;
+  
+  
+}
+
+table tr {
+  background-color: #ceda0d;
+  font-size: 12px;
+  text-align: left;
+
+}
+
+table tr th {
+  color: #fff;
+  padding: 5px;
+  
+  
+}
+
+table tr td {
+  color: #000;
+  padding: 5px;
+  border-bottom: #ccc;
+  background-color: #ecf0f5;
+}
+
+.row  {
+  left: 40px;
+  position: relative;
+}
+.row ul li{
+  margin-bottom: 38px;
+  list-style-type: none;
+}
+
+.row > button, .row > form > button{
+  width: 110px;
+  left: 130px;
+  top: -20px;
+  position: relative;
+  background-color: #f79f15;
+  border-color: #d28102;
+  color: #444444;
+  font-weight: 600;
+  border-radius: 6px;
+  height: 30px;
+}
+.row > ul > li > select {
+  width: 110px;
+
+}
+.row > ul, .row > button{
+  top: 40px;
+  position: relative;
+}
+.navbar-custom-menu ul li:nth-child(5){
+    display: none;
+}
+.row > h2 {
+  font-size: 24px;
+  font-family: inherit;
+  border-bottom: 1px solid #ceda0d;
+  color: #222d32;
+  width: 22%;
+}
+
+.row > p > a{
+  color: #222d32;
+  top: 1px;
+  position: relative;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.dados-row > p > b{color: #f79f15;font-weight: 500;font-size: 17px;}
+.dados-row > p{
+  
+color: #222d32;
+  
+font-weight: 600;
+  
+width: 260px;
+}
+
+ .dados-row{
+  top: 30px;
+  position: relative;
+}
+
+.row .dados-row > form > button{
+  width: 110px;
+  left: 130px;
+  top: -20px;
+  position: relative;
+  background-color: #f79f15;
+  border-color: #d28102;
+  color: #444444;
+  font-weight: 600;
+  border-radius: 6px;
+  height: 30px;
+}
+
+.content-header > .breadcrumb {
+    float: right;
+    background: transparent;
+    margin-top: 0;
+    display: none;
+    margin-bottom: 0;
+    font-size: 12px;
+    padding: 7px 5px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    border-radius: 2px;
+}

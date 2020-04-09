@@ -1,0 +1,32 @@
+.row  {
+  left: 40px;
+  position: relative;
+}
+.navbar-custom-menu ul li:nth-child(5){
+    display: none;
+}
+.row ul li{
+  margin-bottom: 38px;
+  list-style-type: none;
+}
+
+.row > button{
+  width: 110px;
+  left: 130px;
+  top: -20px;
+  position: relative;
+  background-color: #f79f15;
+  border-color: #d28102;
+  color: #444444;
+  font-weight: 600;
+  border-radius: 6px;
+  height: 30px;
+}
+.row > ul > li > select {
+  width: 110px;
+
+}
+.row > ul, .row > button{
+  top: 40px;
+  position: relative;
+}

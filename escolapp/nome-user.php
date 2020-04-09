@@ -1,0 +1,1 @@
+<span class="hidden-xs">NOME USUÁRIO</span>

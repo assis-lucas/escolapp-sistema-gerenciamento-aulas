@@ -1,0 +1,38 @@
+create database escolapp;
+
+use escolapp;
+
+CREATE TABLE `alunos` (
+  `id_aluno` int(11) NOT NULL AUTO_INCREMENT,
+  `nome_aluno` varchar(50) NOT NULL,
+  `cpf` varchar(11) NOT NULL,
+  `categoria_aluno` varchar(3) NOT NULL,
+  `aulas_restantes` varchar(2) NOT NULL,
+  PRIMARY KEY (`id_aluno`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+
+CREATE TABLE `aulas` (
+  `id_aula` int(11) NOT NULL AUTO_INCREMENT,
+  `horario` varchar(5) DEFAULT NULL,
+  `data` date DEFAULT NULL,
+  `id_instrutor` int(11) DEFAULT NULL,
+  `id_aluno` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id_aula`)
+) 
+
+CREATE TABLE `instrutores` (
+  `id_instrutor` int(11) NOT NULL AUTO_INCREMENT,
+  `nome_instrutor` varchar(50) NOT NULL,
+  `categoria_instrutor` varchar(5) NOT NULL,
+  PRIMARY KEY (`id_instrutor`)
+) 
+
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(30) DEFAULT NULL,
+  `login` varchar(20) DEFAULT NULL,
+  `senha` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) 
+
+insert into usuarios (nome,login,senha) values('Lucas Assis', 'admin', 'dev');
